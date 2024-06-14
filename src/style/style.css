@@ -7,15 +7,12 @@ h1 {
   font-size: 42px;
 }
 
-
 /* botões */
-
 #buttons-container button {
   border: none;
   padding: 10px 15px;
   margin: 0 10px;
 }
-
 
 /* jogo */
 #container {
@@ -34,7 +31,6 @@ h1 {
   border: 5px solid #000;
   box-sizing: border-box;
   flex: 1 1 33%;
-
 }
 
 #block-1, #block-2, #block-3 { /* Retirando a borda(de cima) desse blocos */
@@ -54,7 +50,6 @@ h1 {
 }
 
 /* simbolos */
-
 .x {
   font-size: 65px;
   color:red;
@@ -72,13 +67,11 @@ h1 {
 }
 
 /* classe de esconder */
-
-/* .hide {
+.hide {
   display: none !important;
-} */
+}
 
 /* placar */
-
 #scoreboard-container {
   font-weight: bold;
   margin-top: 30px;
@@ -101,12 +94,11 @@ h1 {
   display: inline-block;
   width: 18px;
   height: 18px;
-  border: 2px solid green;
+  border: 3px solid green;
   border-radius: 50%;
 }
 
 /* msg de vitoria */
-
 #message p {
   position: absolute;
   margin-left: auto;
@@ -119,5 +111,4 @@ h1 {
   background-color: #000;
   color: #fff;
   padding: 20px;
-  display: none;
 }
